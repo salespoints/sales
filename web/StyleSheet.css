@@ -1,0 +1,192 @@
+/* 
+    Document   : style
+    Created on : Nov 17, 2013, 11:18:15 AM
+    Author     : eng.sumaya
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+    
+}
+aside, figure, footer, header, hgroup, nav, section ,conttc{ 
+  display:block;
+}
+#main, header, #banner, #menubar, #site_content, footer, #content_grey, nav
+{ margin-left: auto; 
+  margin-right: auto;}
+.allcontent {
+    margin: 0px;
+    width: 980px;
+    margin-left: 250px;
+     
+}
+
+#main
+{ 
+ background: transparent url(images/transparent.png) repeat;
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border: 15px 15px 15px 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+}
+body{
+    
+     color: #FFF;
+  background: transparent url(images/background.jpg) repeat;
+    
+}
+h1, h2, h3, h4, h5, h6 
+{ 
+  color: #FFf;
+  letter-spacing: -1px;
+  margin: 0 0 10px 0;}
+
+h3
+{ font-size: 130%;}
+
+a, a:hover
+{ color: #FFF;
+  background: transparent;
+  outline: none;
+  text-decoration: none;}
+a:hover
+{ text-decoration: underline;}
+
+ul
+{ margin: 2px 0 22px 30px;
+  line-height: 1.7em;
+  font-style: normal;
+  font-size: 100%;}
+
+ol
+{ margin: 8px 0 22px 20px;}
+
+ol li
+{ margin: 0 0 11px 0;}
+#header
+{ height: 80px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;}
+#banner
+{ width: 940px;
+  position: relative;
+  height: 50px;
+  padding: 15px 0 0 0;
+  background: transparent;}
+#menubar
+{ width: 980px;
+  height: 50px;
+  text-align: center; 
+  margin: 0 auto;
+  background: #4C133E;
+  background: -moz-linear-gradient(#98325A, #4C133E);
+  background: -o-linear-gradient(#98325A, #4C133E);
+  background: -webkit-linear-gradient(#98325A, #4C133E);
+  border-radius: 7px 7px 0px 0px;
+  -moz-border-radius: 7px 7px 0px 0px;
+  -webkit-border: 7px 7px 0px 0px;} 
+  #welcome
+{ width: 880px;
+  float: left;
+  height: 50px;
+  margin: 0 auto;
+  padding-left: 20px;
+  background: transparent;} 
+  
+#welcome H3
+{
+    margin-top: 10px;
+  text-shadow: 0px -1px 0px #000;
+  color: #FFF;}
+ #login{
+margin-bottom: 180px;
+margin-top: 100px;
+margin-right: 300px;
+margin-left: 250px;
+background: transparent;
+background-color:peachpuff;
+color: white;
+
+padding-top:50px;
+padding-bottom:10px;
+padding-right:10px;
+padding-left: 10px;
+
+background: #4C133E;
+  background: -moz-linear-gradient(#98325A, #4C133E);
+  background: -o-linear-gradient(#98325A, #4C133E);
+  background: -webkit-linear-gradient(#98325A, #4C133E);
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px;
+}
+
+
+ul#nav
+{ margin:0;}
+
+ul#nav li
+{ padding: 0 0 0 0px;
+  list-style: none;
+  margin: 2px 0 0 0;
+  display: inline;
+  background: transparent;}
+
+ul#nav li a
+{ float: left;
+  font: bold 120% Arial, Helvetica, sans-serif;
+  height: 24px;
+  margin: 10px 0 0 20px;
+  text-shadow: 0px -1px 0px #000;
+  padding: 6px 20px 0 20px;
+  background: transparent; 
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px;
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;} 
+
+ul#nav li:hover a
+{ color: #FFF;
+  background: #0043A8;
+  background: -moz-linear-gradient(#C71585, #000000);
+  background: -o-linear-gradient(#C71585, #000000);
+  background: -webkit-linear-gradient(#C71585, #000000);
+  text-shadow: none;}
+nav
+{ height: 50px;}  
+#name{
+    margin-left: 10px;
+}
+#pass{
+    margin-left: 15px;
+}
+#enter{
+  text-align: center;
+  margin-left: 150px;
+    width: 70px;
+    height: 35px;
+}
+#footer{
+  margin-top: 20px; 
+  width: 980px;
+  height: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center; 
+  background: transparent url(images/transparent.png) repeat;
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border: 15px 15px 15px 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+}

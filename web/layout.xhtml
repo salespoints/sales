@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+            xmlns:p="http://primefaces.org/ui">
+
+    <h:head>
+        <title><ui:insert name="title">salespoints</ui:insert></title>
+         <link rel="stylesheet" type="text/css" href="/t1/StyleSheet.css"  />
+    </h:head>
+    
+       <h:body>
+       <p:growl id="growl" life="3000"/>
+        
+       
+            <div class="allcontent">
+                <div id="main">
+                <div class="headerc">
+                    <ui:insert name="header"><ui:include src="header.xhtml"/></ui:insert>
+                </div>
+
+                <div class="menu">
+                <nav>
+	  <div id="menubar">
+        <ul id="nav">
+          <li class="current"><a href="#item1.html">item1</a></li>
+          <li><a href="#item2.html">item2</a></li>
+          <li><a href="#item3.html">item3</a></li>
+          <li><a href="#item4.html">item4</a></li>
+          <li><a href="#item5.html">item5</a></li>
+        </ul>
+      </div><!--close menubar-->	
+    </nav>	
+                    
+                </div>
+                <div class="conttc" >
+                    
+                    <br/>
+                    <div style="text-align: center; width: 100%">
+                        <h:outputText styleClass="mainTitle">
+                            <ui:insert name="title">sales points</ui:insert>
+                        </h:outputText>
+                    </div>
+
+                    <br/>
+                    <ui:insert name='content'></ui:insert>
+                    <br/>
+
+                </div>
+                </div>
+                <footer>
+                 <div class="fotc">
+                <ui:insert name="header"><ui:include src="footer.xhtml"/></ui:insert>
+                
+                 </div>
+               </footer>
+            
+       </div>
+    </h:body>
+</html>
+
